@@ -1,0 +1,54 @@
+.planes-contenedor--slider{
+   justify-content: center;
+   overflow-x: none;
+}
+
+.contenedor-tarjetas-producto{
+ display: flex;
+ flex-wrap: wrap;
+ width: 93rem;
+ margin: 0 auto;
+}
+.planes-contenedor--tarjeta:hover{
+   /* transform: scale(1.2); */
+   box-shadow: 2rem 2rem 2rem 2rem rgba(89, 73, 30, 0.17);
+   cursor: pointer;
+}
+.planes-contenedor--tarjeta-3:hover{
+   
+   box-shadow: 2rem 2rem 2rem 2rem rgba(89, 73, 30, 0.17);
+   cursor: pointer;
+}
+.header--boton:hover{
+   transform: scale(1.2);
+   cursor: pointer;
+}
+
+.main-tablas-juntas{
+   display: flex;
+   width: 50rem;
+   margin: 0 auto;
+}
+
+.plan-tarjeta--boton-3{
+   animation: float 3s linear infinite;
+}
+.plan-tarjeta--boton-3:hover{
+   cursor: pointer;
+}
+
+.plan-tarjeta--boton{
+   animation: float 3s linear infinite;
+}
+.plan-tarjeta--boton:hover{
+   cursor: pointer;
+}
+@keyframes float {
+   0%,
+   100% {
+     transform: translateY(0rem);
+   }
+   50% {
+     transform: translateY(-1.5rem);
+   }
+ }
